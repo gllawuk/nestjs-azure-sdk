@@ -1,0 +1,54 @@
+{
+  "name": "nestjs-azure-service-bus",
+  "version": "0.0.1",
+  "description": "Custom transport for using [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus) with [NestJS](https://nestjs.com).",
+  "author": "Julian Dawson",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint --ext ts --fix lib",
+    "format": "prettier --write \"lib/**/*.ts\"",
+    "precommit": "lint-staged",
+    "prepublish:npm": "npm run build",
+    "publish:npm": "npm publish --access public",
+    "prepublish:next": "npm run build",
+    "publish:next": "npm publish --access public --tag next",
+    "prerelease": "npm run build",
+    "release": "release-it"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^8.0.0",
+    "@nestjs/core": "^8.0.0",
+    "@nestjs/microservices": "^8.0.0",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^7.1.0"
+  },
+  "devDependencies": {
+    "@azure/service-bus": "7.5.1",
+    "@nestjs/common": "8.4.0",
+    "@nestjs/core": "8.4.0",
+    "@nestjs/microservices": "8.4.0",
+    "@typescript-eslint/eslint-plugin": "5.14.0",
+    "@typescript-eslint/parser": "5.14.0",
+    "eslint": "8.10.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "husky": "7.0.4",
+    "lint-staged": "12.3.5",
+    "prettier": "2.5.1",
+    "reflect-metadata": "0.1.13",
+    "release-it": "14.12.5",
+    "rxjs": "7.5.5",
+    "typescript": "4.6.2"
+  }
+}

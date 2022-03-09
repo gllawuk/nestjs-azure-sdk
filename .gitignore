@@ -6,8 +6,7 @@
 /.vscode
 
 # misc
-npm-debug.log
-yarn-error.log
+*.log
 .DS_Store
 
 # tests
@@ -17,3 +16,5 @@ yarn-error.log
 
 # build
 /dist
+
+**/node_modules/
