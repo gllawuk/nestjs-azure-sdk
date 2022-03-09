@@ -46,7 +46,6 @@ const app = await NestFactory.createMicroservice<MicroserviceOptions>(
 @Injectable()
 constructor(
   @Inject('SB_SERVICE') private readonly sbClient: ClientProxy,
-  private readonly azureStorageBlobService: AzureStorageBlobService,
 ) {}
 ```
 
