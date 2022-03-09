@@ -1,0 +1,11 @@
+# source
+/lib
+index.ts
+package-lock.json
+yarn.lock
+.prettierrc
+
+# misc
+npm-debug.log
+yarn-error.log
+.DS_Store
