@@ -92,7 +92,3 @@ async handleEvent(data) {
   console.log(data);
 }
 ```
-
-## License
-
-[MIT licensed](LICENSE).
