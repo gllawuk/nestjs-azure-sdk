@@ -1,11 +1,11 @@
 # NestJS Azure Service Bus
 
-Custom transport for using [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus) with [NestJS](https://nestjs.com).
+[NestJS](https://nestjs.com) custom transport for [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus).
 
 ## Installation
 
 ```bash
-$ npm install @gllawuk/nestjs-azure-service-bus
+$ npm install @gllawuk/nestjs-azure-service-bus --save
 ```
 
 ## Overview
@@ -54,7 +54,7 @@ constructor(
 Producer:
 
 ```typescript
-const pattern = 'sbq-default'; // queue name
+const pattern = 'sbq-default'; // queue name is 'sbq-default.reply'
 const data = 'Example message';
 this.sbClient.send(pattern, data).subscribe((response) => {
   console.log(response); // reply message
@@ -85,8 +85,8 @@ this.sbClient.emit(pattern, data);
 Consumer:
 
 ```typescript
-const pattern = 'sbq-default'; // queue name is 'sbq-default.reply'
-@EventPattern(pattern)
+const pattern = 'sbq-default'; // queue name
+@EventPattern('sbq-default')
 async handleEvent(data) {
   console.log(data);
 }

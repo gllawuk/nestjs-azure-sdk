@@ -2,13 +2,13 @@
   "name": "@gllawuk/nestjs-azure-service-bus",
   "version": "0.0.4",
   "description": "NestJS custom transport for Azure Service Bus",
-  "homepage": "https://github.com/gllawuk/nestjs-azure-sdk",
+  "homepage": "https://github.com/gllawuk/nestjs-azure-sdk/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gllawuk/nestjs-azure-sdk/tree/main/sdk/service-bus"
+    "url": "https://github.com/gllawuk/nestjs-azure-sdk/tree/main/sdk/service-bus/"
   },
   "bugs": {
-    "url": "https://github.com/gllawuk/nestjs-azure-sdk/issues"
+    "url": "https://github.com/gllawuk/nestjs-azure-sdk/issues/"
   },
   "author": "Julian Dawson",
   "license": "MIT",
@@ -57,5 +57,12 @@
     "rxjs": "7.5.5",
     "typescript": "4.6.2"
   },
-  "main": "./dist/index.js"
+  "main": "./dist/index.js",
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "typescript",
+    "azure",
+    "nestjs"
+  ]
 }
