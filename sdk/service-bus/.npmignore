@@ -1,11 +1,13 @@
 # source
-/lib
-index.ts
-package-lock.json
-yarn.lock
-.prettierrc
+**/*.ts
+*.ts
 
-# misc
-npm-debug.log
-yarn-error.log
-.DS_Store
+# definitions
+!**/*.d.ts
+!*.d.ts
+
+# configuration
+package-lock.json
+tslint.json
+tsconfig.json
+.prettierrc
