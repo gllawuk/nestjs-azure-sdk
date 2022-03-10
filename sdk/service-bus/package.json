@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-azure-service-bus",
+  "name": "@gllawuk/nestjs-azure-service-bus",
   "version": "0.0.1",
   "description": "Custom transport for using [Azure Service Bus](https://azure.microsoft.com/en-us/services/service-bus) with [NestJS](https://nestjs.com).",
   "author": "Julian Dawson",

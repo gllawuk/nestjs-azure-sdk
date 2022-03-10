@@ -5,7 +5,7 @@ Custom transport for using [Azure Service Bus](https://azure.microsoft.com/en-us
 ## Installation
 
 ```bash
-$ yarn add nestjs-azure-service-bus
+$ yarn add @gllawuk/nestjs-azure-service-bus
 ```
 
 ## Overview

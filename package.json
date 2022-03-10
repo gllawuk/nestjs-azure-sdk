@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-azure-sdk",
+  "name": "@gllawuk/nestjs-azure-sdk",
   "version": "0.0.1",
   "description": "Azure SDK for NestJS (Node.js)",
   "author": "Julian Dawson",

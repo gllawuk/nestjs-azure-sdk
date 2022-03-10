@@ -1,5 +1,6 @@
 # dependencies
 /node_modules
+**/node_modules/
 
 # IDE
 /.idea
@@ -16,5 +17,4 @@
 
 # build
 /dist
-
-**/node_modules/
+**/dist/
