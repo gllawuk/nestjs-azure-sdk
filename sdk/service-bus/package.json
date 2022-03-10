@@ -1,6 +1,6 @@
 {
   "name": "@gllawuk/nestjs-azure-service-bus",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "NestJS custom transport for Azure Service Bus",
   "homepage": "https://github.com/gllawuk/nestjs-azure-sdk/tree/main/sdk/service-bus",
   "repository": "github:gllawuk/nestjs-azure-sdk",
