@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-$ npm install @gllawuk/nestjs-azure-service-bus --save
+$ npm install @gllawuk/nestjs-azure-service-bus @azure/service-bus --save
 ```
 
 ## Overview
